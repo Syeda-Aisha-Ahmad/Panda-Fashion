@@ -1,0 +1,40 @@
+.header-color {
+    background-color: #FFF9F4;
+}
+
+.color-heading {
+    color: #FA804C;
+}
+
+.button-color {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+
+@media only screen and (max-width:992px) {
+    .ddf {
+        position: relative;
+        bottom: 35px;
+        margin-left: auto;
+    }
+
+    .header-banner {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .casual-shoes-heading {
+        text-align: center;
+    }
+
+    .section-div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ic {
+        width: 20%;
+    }
+
+}
